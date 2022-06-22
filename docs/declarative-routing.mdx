@@ -95,7 +95,7 @@ class App extends StatelessWidget {
   ...
   final _router = GoRouter(
     ...
-    errorBuilder: (context, state) => ErrorScreen(state.error),
+    errorBuilder: (context, state) => ErrorScreen(state.error!),
   );
 }
 ```
